@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+
     font-weight: normal;
 }
 
@@ -26,7 +26,7 @@ body{
     margin: 0 -15px;
 }
 
-[class^="col-"]{
+[class^="col-"] {
     float: left;
     padding: 0 15px;
 }
@@ -72,6 +72,7 @@ body{
     background-color: rgba(0, 0, 0, 0.247);
     color: white;
     height: 100%;
+    border-radius: 20px;
 }
 
 .yellowish-txt .txt {
@@ -84,11 +85,13 @@ body{
     background-color: rgb(46, 122, 221);
 }
 
+
 .bg-acqua1{
     background-image: url("../img/img-1.jpg");
     background-size: cover;
     height: 200px;
     border-radius: 20px;
+    margin: 0 15px;
 }
 
 .bg-acqua2{
@@ -96,6 +99,7 @@ body{
     background-size: cover;
     height: 200px;
     border-radius: 20px;
+    margin: 0 15px;
 }
 
 .bg-acqua3{
@@ -103,6 +107,8 @@ body{
     background-size: cover;
     height: 200px;
     border-radius: 20px;
+    
+    margin: 0 15px;
 }
 
 
@@ -140,8 +146,12 @@ body{
 
 
 
-.pd {
-    padding: 0.5em;
+.pb {
+    padding-bottom: 1em;
+}
+
+.pt{
+    padding-top: 1em;
 }
 
 
