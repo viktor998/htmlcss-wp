@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-weight: normal;
 }
 
 body{
@@ -55,12 +56,26 @@ body{
 
 .nav span{
     padding-right: 20px;
+    font-size: medium;
 }
 
 .bg-yellowish{
     background-image: url("../img/banner.jpg");
+    opacity: 92%;
     height: 550px;
     border-radius: 20px;
+}
+
+.yellowish-txt{
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+    height: 100%;
+}
+
+.yellowish-txt .txt {
+    width: 55%;
+    padding-top: 400px;
+    padding-left: 60px;
 }
 
 .bg-blueish{
