@@ -68,23 +68,20 @@ body{
     border-radius: 20px;
 }
 
-.yellowish-txt{
+.black-opacity{
     background-color: rgba(0, 0, 0, 0.247);
     color: white;
     height: 100%;
     border-radius: 20px;
 }
 
-.yellowish-txt .txt {
+.black-opacity .txt {
     width: 55%;
     padding-top: 250px;
     padding-left: 60px;
 }
 
-.bg-blueish{
-    background-color: rgb(46, 122, 221);
-}
-
+/* LEADERSHIP */
 
 .bg-acqua1{
     background-image: url("../img/img-1.jpg");
@@ -107,7 +104,6 @@ body{
     background-size: cover;
     height: 200px;
     border-radius: 20px;
-    
     margin: 0 15px;
 }
 
@@ -120,7 +116,7 @@ body{
 
 
 .column-txt{
-    margin: 0 25px;
+    margin: 0 15px;
 } 
 
 .col-25 img, .col-50 img{
@@ -153,7 +149,3 @@ body{
 .pt{
     padding-top: 1em;
 }
-
-
-
-
